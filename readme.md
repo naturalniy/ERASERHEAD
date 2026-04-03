@@ -9,7 +9,7 @@
 ### Стек технологий
 - **Frontend:** React, Tailwind CSS, Framer Motion
 - **Backend:** ASP.NET Core API, Entity Framework
-- **Database:** PostgreSQL / MS SQL
+- **Database:** MySQL
 - **Design:** Industrial / Opium Aesthetic
 
 ### Основные функции
