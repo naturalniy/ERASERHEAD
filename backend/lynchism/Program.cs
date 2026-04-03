@@ -84,7 +84,7 @@ builder.Services.AddScoped<OrderService>();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactApp",
-        policy => policy.WithOrigins("http://localhost:3000", "https://eraserhead-frontend.vercel.app")
+        policy => policy.WithOrigins("http://localhost:3000", "https://eraserhead.vercel.app")
                         .AllowAnyMethod()
                         .AllowAnyHeader());
 });
