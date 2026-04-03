@@ -84,11 +84,11 @@ builder.Services.AddScoped<OrderService>();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactApp",
-        policy => policy.WithOrigins("http://localhost:3000", "https://eraserhead.vercel.app")
+        policy => policy.SetIsOriginAllowed(origin => true) // Разрешает ЛЮБОЙ домен
                         .AllowAnyMethod()
-                        .AllowAnyHeader());
+                        .AllowAnyHeader()
+                        .AllowCredentials());
 });
-
 
 var app = builder.Build();
 
