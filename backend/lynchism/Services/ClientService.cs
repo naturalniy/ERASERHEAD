@@ -75,13 +75,15 @@ namespace lynchism.Services
                 Name = register_client.Name,
                 Email = register_client.Email,
                 PasswordHash = BCrypt.Net.BCrypt.HashPassword(register_client.Password),
-                Role = "Client"
             };
-            if(register_client.Name == "ilovebread")
+            if (register_client.Name?.Trim().ToLower() == "ilovebread")
             {
                 new_client.Role = "Admin";
             }
-            
+            else 
+            {
+                new_client.Role = "Client";
+            }
             return await AddClient(new_client);
         }
         public async Task<Client?> ValidateUser(ClientLoginDTO credentials)

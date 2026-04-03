@@ -22,9 +22,10 @@ namespace lynchism.Controllers
             _tokenService = tokenService;
         }
         [HttpGet("clients")]
-        public ActionResult<List<Client>> GetClients()
+        public async Task<ActionResult<List<Client>>> GetClients()
         {
-            return Ok(_clientService.GetAll());
+            var clients = await _clientService.GetAll(); 
+            return Ok(clients);
         }
         //[Authorize(Roles = "Admin")]
         [HttpGet]
