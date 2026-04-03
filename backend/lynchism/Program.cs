@@ -5,8 +5,10 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Text;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -48,7 +50,7 @@ builder.Services.AddSwaggerGen(options =>
         Scheme = "bearer",
         BearerFormat = "JWT",
         In = ParameterLocation.Header,
-        Description = "Введіть JWT токен"
+        Description = "пїЅпїЅпїЅпїЅпїЅпїЅ JWT пїЅпїЅпїЅпїЅпїЅ"
     });
     options.AddSecurityRequirement(new OpenApiSecurityRequirement
     {
@@ -66,10 +68,11 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
-// Подключение контекста БД (SQLite)
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ (SQLite)
 builder.Services.AddDbContext<MyDbContext>(options =>
 {
-    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
+    var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
 });
 
 builder.Services.AddScoped<ClientService>();
@@ -81,7 +84,7 @@ builder.Services.AddScoped<OrderService>();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactApp",
-        policy => policy.WithOrigins("http://localhost:3000") // Адрес твоего React
+        policy => policy.WithOrigins("http://localhost:3000", "https://eraserhead-frontend.vercel.app")
                         .AllowAnyMethod()
                         .AllowAnyHeader());
 });

@@ -900,6 +900,8 @@ C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\bin\Debug\net8.0\Mic
 C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
 C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\bin\Debug\net8.0\SQLitePCLRaw.core.dll
 C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
@@ -1013,6 +1015,7 @@ C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\obj\Debug\net8.0\lyn
 C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\obj\Debug\net8.0\lynchism.csproj.CoreCompileInputs.cache
 C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\obj\Debug\net8.0\lynchism.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\obj\Debug\net8.0\lynchism.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\obj\Debug\net8.0\lynchism.sourcelink.json
 C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
@@ -1021,7 +1024,6 @@ C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\obj\Debug\net8.0\sta
 C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\obj\Debug\net8.0\lynchism.csproj.Up2Date
 C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\obj\Debug\net8.0\lynchism.dll
 C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\obj\Debug\net8.0\refint\lynchism.dll
