@@ -1,0 +1,6 @@
+@lynchism_HostAddress = http://localhost:5031
+
+GET {{lynchism_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
