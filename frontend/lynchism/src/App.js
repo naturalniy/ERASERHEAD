@@ -10,6 +10,9 @@ import Header from './Header';
 import Footer from './Footer';
 import { stringify } from 'postcss';
 
+const API_URL = process.env.REACT_APP_API_URL || "http://localhost:5000";
+
+
 function valuetext(value) {
   return `${value}°C`;
 }
@@ -61,13 +64,13 @@ function Catalog(){
   const getProducts = async () => {
     dispatch({ type: "FETCH_PRODUCTS_LOADING" });
     try {
-      let response = await fetch("https://localhost:7064/Product/GetProducts");
+      let response = await fetch(`https://${API_URL}/Product/GetProducts`);
       if (!response.ok && response.status === 401) {
         console.warn("SYSTEM_SYNC // 401_UNAUTHORIZED // ATTEMPTING_REFRESH");
         const isRefreshed = await refreshTokens();
         
         if (isRefreshed) {
-          response = await fetch("https://localhost:7064/Product/GetProducts");
+          response = await fetch(`https://${API_URL}/Product/GetProducts`);
         } else {
           localStorage.clear();
           navigate("/login");
@@ -221,7 +224,7 @@ function ProductPage({ updateCart }){
   const [showModal, setShowModal] = useState(false);
   const navigate = useNavigate();
   useEffect(() => {
-    fetch(`https://localhost:7064/Product/${id}`)
+    fetch(`https://${API_URL}/Product/${id}`)
     .then(res => res.json())
     .then(data => {
       setProduct(data)
@@ -235,7 +238,7 @@ function ProductPage({ updateCart }){
     try{
       var token = localStorage.getItem("access_token")
       if(token == null) navigate("/login")
-      const response = await fetch(`https://localhost:7064/Cart/add-to-cart`,{
+      const response = await fetch(`https://${API_URL}/Cart/add-to-cart`,{
         method:"POST",
         headers: {
             "Content-Type": "application/json",
@@ -363,7 +366,7 @@ function LoginPage(){
     e.preventDefault();
     setError("");
     try{
-      const response = await fetch("https://localhost:7064/Client/login", {
+      const response = await fetch(`https://${API_URL}/Client/login`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -459,7 +462,7 @@ function RegisterPage(){
     e.preventDefault();
     setError("");
     try{
-      const response = await fetch("https://localhost:7064/Client/register", {
+      const response = await fetch(`https://${API_URL}/Client/register`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -568,7 +571,7 @@ function CartPage({removeItem}){
   const handleChangeCount = async (id, num) =>{
     const token = localStorage.getItem("access_token");
       if(!token) return navigate("/login")
-      const response = await fetch(`https://localhost:7064/Cart/change-quantity?id=${id}&quantity=${num}`, {
+      const response = await fetch(`https://${API_URL}/Cart/change-quantity?id=${id}&quantity=${num}`, {
         method: "PUT", 
         headers: {
           "Content-Type": "application/json",
@@ -600,7 +603,7 @@ function CartPage({removeItem}){
     const token = localStorage.getItem("access_token");
       if(!token) return navigate("/login")
       
-      const response = await fetch(`https://localhost:7064/Cart/${id}`, {
+      const response = await fetch(`https://${API_URL}/Cart/${id}`, {
         method: "DELETE", 
         headers: {
           "Content-Type": "application/json",
@@ -628,7 +631,7 @@ function CartPage({removeItem}){
       const token = localStorage.getItem("access_token");
       if(!token) return navigate("/login")
       
-      const response = await fetch("https://localhost:7064/Cart/get-cart", {
+      const response = await fetch(`https://${API_URL}/Cart/get-cart`, {
         method: "GET", 
         headers: {
           "Content-Type": "application/json",
@@ -811,7 +814,7 @@ function OrderPostPage({removeItem}){
     };
 
     try {
-      const response = await fetch("https://localhost:7064/Order/create_order", {
+      const response = await fetch(`https://${API_URL}/Order/create_order`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -848,7 +851,7 @@ function OrderPostPage({removeItem}){
       const token = localStorage.getItem("access_token");
       if(!token) return navigate("/login")
       
-      const response = await fetch("https://localhost:7064/Cart/get-cart", {
+      const response = await fetch(`https://${API_URL}/Cart/get-cart`, {
         method: "GET", 
         headers: {
           "Content-Type": "application/json",
@@ -1067,7 +1070,7 @@ const ProfilePage = ({updateCart}) => {
       const token = localStorage.getItem("access_token");
       if(!token) return navigate("/login")
       
-      const response = await fetch("https://localhost:7064/Client/me", {
+      const response = await fetch(`https://${API_URL}/Client/me`, {
         method: "GET", 
         headers: {
           "Content-Type": "application/json",
@@ -1096,7 +1099,7 @@ const ProfilePage = ({updateCart}) => {
       const token = localStorage.getItem("access_token");
       if(!token) return navigate("/login")
       
-      const response = await fetch("https://localhost:7064/Order/getOrders", {
+      const response = await fetch(`https://${API_URL}/Order/getOrders`, {
         method: "GET", 
         headers: {
           "Content-Type": "application/json",
@@ -1226,7 +1229,7 @@ const AdminPanel = () => {
 
   const fetchOrders = async () => {
     try {
-      const res = await fetch(`https://localhost:7064/Order/getAllOrders?page=${page}&pageSize=${pageSize}`, {
+      const res = await fetch(`https://${API_URL}/Order/getAllOrders?page=${page}&pageSize=${pageSize}`, {
         method: "GET",
         headers: { "Authorization": `Bearer ${token}` }
       });
@@ -1253,7 +1256,7 @@ const AdminPanel = () => {
   };
 
   const updateStatus = async (orderId, newStatus) => {
-    await fetch(`https://localhost:7064/Admin/update-status?id=${orderId}&status=${newStatus}`, {
+    await fetch(`https://${API_URL}/Admin/update-status?id=${orderId}&status=${newStatus}`, {
       method: "PUT",
       headers: { "Authorization": `Bearer ${token}` }
     });
@@ -1338,7 +1341,7 @@ function OrderDetail(){
     const token = localStorage.getItem("access_token");
     if(!token) return navigate("/login")
     try {
-      const response = await fetch(`https://localhost:7064/Order/getOrderById/${id}`, {
+      const response = await fetch(`https://${API_URL}/Order/getOrderById/${id}`, {
         method: "GET",
         headers: { "Authorization": `Bearer ${token}` }
       });
@@ -1473,7 +1476,7 @@ function ChangeProduct(){
     const token = localStorage.getItem("access_token");
     if(!token) return navigate("/login")
     try {
-      const response = await fetch(`https://localhost:7064/Product/change/${id}`, {
+      const response = await fetch(`https://${API_URL}/Product/change/${id}`, {
         method: "PUT",
         headers: { 
           "Authorization": `Bearer ${token}`,
@@ -1507,7 +1510,7 @@ function ChangeProduct(){
     const token = localStorage.getItem("access_token");
     if(!token) return navigate("/login")
     try {
-      const response = await fetch(`https://localhost:7064/Product/${id}`, {
+      const response = await fetch(`https://${API_URL}/Product/${id}`, {
         method: "GET",
         headers: { "Authorization": `Bearer ${token}` }
       });
@@ -1651,7 +1654,7 @@ function App() {
       if (!token) return;
 
       try {
-          const response = await fetch("https://localhost:7064/Cart/get-cartItem-count", {
+          const response = await fetch(`https://${API_URL}/Cart/get-cartItem-count`, {
             method: "GET", 
             headers: {
               "Content-Type": "application/json",
