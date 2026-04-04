@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D5AD1FD1-AC21-47A3-A92E-0DB80D231905}|lynchism\\lynchism.csproj|c:\\users\\olga0\\onedrive\\desktop\\eraserhead\\backend\\lynchism\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5AD1FD1-AC21-47A3-A92E-0DB80D231905}|lynchism\\lynchism.csproj|solutionrelative:lynchism\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5AD1FD1-AC21-47A3-A92E-0DB80D231905}|lynchism\\lynchism.csproj|c:\\users\\olga0\\onedrive\\desktop\\eraserhead\\backend\\lynchism\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5AD1FD1-AC21-47A3-A92E-0DB80D231905}|lynchism\\lynchism.csproj|solutionrelative:lynchism\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D5AD1FD1-AC21-47A3-A92E-0DB80D231905}|lynchism\\lynchism.csproj|c:\\users\\olga0\\onedrive\\desktop\\eraserhead\\backend\\lynchism\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5AD1FD1-AC21-47A3-A92E-0DB80D231905}|lynchism\\lynchism.csproj|solutionrelative:lynchism\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AD1FD1-AC21-47A3-A92E-0DB80D231905}|lynchism\\lynchism.csproj|c:\\users\\olga0\\onedrive\\desktop\\eraserhead\\backend\\lynchism\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5AD1FD1-AC21-47A3-A92E-0DB80D231905}|lynchism\\lynchism.csproj|solutionrelative:lynchism\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D5AD1FD1-AC21-47A3-A92E-0DB80D231905}|lynchism\\lynchism.csproj|c:\\users\\olga0\\onedrive\\desktop\\eraserhead\\backend\\lynchism\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -107,10 +111,6 @@
       "RelativeMoniker": "D:0:0:{D5AD1FD1-AC21-47A3-A92E-0DB80D231905}|lynchism\\lynchism.csproj|solutionrelative:lynchism\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5AD1FD1-AC21-47A3-A92E-0DB80D231905}|lynchism\\lynchism.csproj|c:\\users\\olga0\\onedrive\\desktop\\eraserhead\\backend\\lynchism\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5AD1FD1-AC21-47A3-A92E-0DB80D231905}|lynchism\\lynchism.csproj|solutionrelative:lynchism\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D5AD1FD1-AC21-47A3-A92E-0DB80D231905}|lynchism\\lynchism.csproj|c:\\users\\olga0\\onedrive\\desktop\\eraserhead\\backend\\lynchism\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D5AD1FD1-AC21-47A3-A92E-0DB80D231905}|lynchism\\lynchism.csproj|solutionrelative:lynchism\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -119,8 +119,8 @@
       "RelativeMoniker": "D:0:0:{D5AD1FD1-AC21-47A3-A92E-0DB80D231905}|lynchism\\lynchism.csproj|solutionrelative:lynchism\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5AD1FD1-AC21-47A3-A92E-0DB80D231905}|lynchism\\lynchism.csproj|c:\\users\\olga0\\onedrive\\desktop\\eraserhead\\backend\\lynchism\\migrations\\20260316183732_url.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5AD1FD1-AC21-47A3-A92E-0DB80D231905}|lynchism\\lynchism.csproj|solutionrelative:lynchism\\migrations\\20260316183732_url.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\Migrations\\20260316183732_url.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lynchism\\Migrations\\20260316183732_url.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -130,23 +130,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 182,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CartService.cs",
-              "DocumentMoniker": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\Services\\CartService.cs",
-              "RelativeDocumentMoniker": "lynchism\\Services\\CartService.cs",
-              "ToolTip": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\Services\\CartService.cs",
-              "RelativeToolTip": "lynchism\\Services\\CartService.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAADwv0oAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T14:11:28.316Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "lynchism\\Services\\ProductService.cs",
@@ -158,20 +146,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MyDbContext.cs",
               "DocumentMoniker": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\MyDbContext.cs",
               "RelativeDocumentMoniker": "lynchism\\MyDbContext.cs",
               "ToolTip": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\MyDbContext.cs",
               "RelativeToolTip": "lynchism\\MyDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-14T07:07:53.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "AddToCartDTO.cs",
               "DocumentMoniker": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\DTO\\AddToCartDTO.cs",
               "RelativeDocumentMoniker": "lynchism\\DTO\\AddToCartDTO.cs",
@@ -183,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "OrderService.cs",
               "DocumentMoniker": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\Services\\OrderService.cs",
               "RelativeDocumentMoniker": "lynchism\\Services\\OrderService.cs",
@@ -192,6 +180,31 @@
               "ViewState": "AgIAAJsAAAAAAAAAAAAwwKkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-23T18:00:58.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\Program.cs",
+              "RelativeDocumentMoniker": "lynchism\\Program.cs",
+              "ToolTip": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\Program.cs",
+              "RelativeToolTip": "lynchism\\Program.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAALkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T16:51:51.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "lynchism\\Services\\CartService.cs",
+              "ToolTip": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\Services\\CartService.cs",
+              "RelativeToolTip": "lynchism\\Services\\CartService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAADwv0oAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T14:11:28.316Z"
             },
             {
               "$type": "Document",
@@ -219,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "TokenService.cs",
               "DocumentMoniker": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\Services\\TokenService.cs",
               "RelativeDocumentMoniker": "lynchism\\Services\\TokenService.cs",
@@ -231,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "ClientService.cs",
               "DocumentMoniker": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\Services\\ClientService.cs",
               "RelativeDocumentMoniker": "lynchism\\Services\\ClientService.cs",
@@ -243,19 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\Program.cs",
-              "RelativeDocumentMoniker": "lynchism\\Program.cs",
-              "ToolTip": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\Program.cs",
-              "RelativeToolTip": "lynchism\\Program.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T16:51:51.598Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "TokensDTO.cs",
               "DocumentMoniker": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\DTO\\TokensDTO.cs",
               "RelativeDocumentMoniker": "lynchism\\DTO\\TokensDTO.cs",
@@ -267,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "CreateOrderDTO.cs",
               "DocumentMoniker": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\DTO\\CreateOrderDTO.cs",
               "RelativeDocumentMoniker": "lynchism\\DTO\\CreateOrderDTO.cs",
@@ -285,7 +286,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "OrderItemDTO.cs",
               "DocumentMoniker": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\DTO\\OrderItemDTO.cs",
               "RelativeDocumentMoniker": "lynchism\\DTO\\OrderItemDTO.cs",
@@ -297,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "OrderDTO.cs",
               "DocumentMoniker": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\DTO\\OrderDTO.cs",
               "RelativeDocumentMoniker": "lynchism\\DTO\\OrderDTO.cs",
@@ -309,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "lynchism\\Controllers\\OrderController.cs",
@@ -334,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\Models\\Product.cs",
               "RelativeDocumentMoniker": "lynchism\\Models\\Product.cs",
@@ -346,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ProductDTO.cs",
               "DocumentMoniker": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\DTO\\ProductDTO.cs",
               "RelativeDocumentMoniker": "lynchism\\DTO\\ProductDTO.cs",
@@ -358,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\Models\\OrderItem.cs",
               "RelativeDocumentMoniker": "lynchism\\Models\\OrderItem.cs",
@@ -370,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\Models\\Order.cs",
               "RelativeDocumentMoniker": "lynchism\\Models\\Order.cs",
@@ -382,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "RegisterDTO.cs",
               "DocumentMoniker": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\DTO\\RegisterDTO.cs",
               "RelativeDocumentMoniker": "lynchism\\DTO\\RegisterDTO.cs",
@@ -406,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "CartItem.cs",
               "DocumentMoniker": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\Models\\CartItem.cs",
               "RelativeDocumentMoniker": "lynchism\\Models\\CartItem.cs",
@@ -418,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\Models\\Client.cs",
               "RelativeDocumentMoniker": "lynchism\\Models\\Client.cs",
@@ -430,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ClientController.cs",
               "DocumentMoniker": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\Controllers\\ClientController.cs",
               "RelativeDocumentMoniker": "lynchism\\Controllers\\ClientController.cs",
@@ -442,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "CartController.cs",
               "DocumentMoniker": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "lynchism\\Controllers\\CartController.cs",
@@ -454,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ProductSize.cs",
               "DocumentMoniker": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\Models\\ProductSize.cs",
               "RelativeDocumentMoniker": "lynchism\\Models\\ProductSize.cs",
@@ -466,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "ClientLoginDTO.cs",
               "DocumentMoniker": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\DTO\\ClientLoginDTO.cs",
               "RelativeDocumentMoniker": "lynchism\\DTO\\ClientLoginDTO.cs",
@@ -478,7 +479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "CartItemDTO.cs",
               "DocumentMoniker": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\DTO\\CartItemDTO.cs",
               "RelativeDocumentMoniker": "lynchism\\DTO\\CartItemDTO.cs",
@@ -490,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "PagedResult.cs",
               "DocumentMoniker": "C:\\Users\\olga0\\OneDrive\\Desktop\\eraserhead\\backend\\lynchism\\Models\\PagedResult.cs",
               "RelativeDocumentMoniker": "lynchism\\Models\\PagedResult.cs",

@@ -1405,7 +1405,7 @@
     "securitySchemes": {
       "Bearer": {
         "type": "http",
-        "description": "Введіть JWT токен",
+        "description": "������ JWT �����",
         "scheme": "bearer",
         "bearerFormat": "JWT"
       }

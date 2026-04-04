@@ -1030,3 +1030,4 @@ C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\obj\Debug\net8.0\ref
 C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\obj\Debug\net8.0\lynchism.pdb
 C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\obj\Debug\net8.0\lynchism.genruntimeconfig.cache
 C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\obj\Debug\net8.0\ref\lynchism.dll
+C:\Users\olga0\OneDrive\Desktop\eraserhead\backend\lynchism\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
