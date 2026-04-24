@@ -1,21 +1,18 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-WORKDIR /app
-
-# Копируем файлы проекта и восстанавливаем зависимости
-COPY *.csproj ./
+WORKDIR /source
+COPY lynchism.csproj .
 RUN dotnet restore
+COPY . . 
+RUN dotnet publish -c Release -o /app
 
-# Копируем всё остальное и собираем
-COPY . ./
-RUN dotnet publish -c Release -o out
-
-# Используем легкий образ для запуска
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
+# Это лечит 90% ошибок сегментации (139) на Linux-серверах
+RUN apt-get update && apt-get install -y libicu-dev
 WORKDIR /app
-COPY --from=build /app/out .
+COPY --from=build /app .
 
-# Отключаем HTTPS внутри контейнера (Render сам его добавит снаружи)
-ENV ASPNETCORE_URLS=http://+:80
-EXPOSE 80
+# Render требует порт 10000 по умолчанию
+ENV ASPNETCORE_URLS=http://+:10000
+EXPOSE 10000
 
 ENTRYPOINT ["dotnet", "lynchism.dll"]
