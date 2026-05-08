@@ -72,7 +72,7 @@ builder.Services.AddSwaggerGen(options =>
 builder.Services.AddDbContext<MyDbContext>(options =>
 {
     var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+    options.UseMySql(connectionString, new MySqlServerVersion(new Version(8, 0, 45)));
 });
 
 builder.Services.AddScoped<ClientService>();
