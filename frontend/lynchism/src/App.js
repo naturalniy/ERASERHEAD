@@ -10,7 +10,7 @@ import Header from './Header';
 import Footer from './Footer';
 import { stringify } from 'postcss';
 
-const API_URL = process.env.REACT_APP_API_URL || "http://localhost:5000";
+const API_URL = "https://p01--eraserhead--2mptp9bz86t9.code.run";
 
 
 function valuetext(value) {
