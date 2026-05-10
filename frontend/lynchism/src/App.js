@@ -1462,7 +1462,13 @@ function AboutPage(){
     <>
       <div className="min-h-screen bg-[#050505] text-zinc-400 font-mono p-5 flex flex-col justify-center items-center gap-4">
         <h1 className='uppercase text-[70px]'>by bread🥀</h1>
-        <img className='w-[800px] h-[400px]' src='https://cdn.discordapp.com/attachments/1161712896380784753/1503137621323546685/image.png?ex=6a02417f&is=6a00efff&hm=581222d081e969516e552011ee387b14b718d33ce35edae93a35b45d4df30005&' alt="about"/>
+        <a href="https://beton.ua/game/pragmaticplay-direct-gates-of-olympus-super-scatter?isDemo=true">
+          <img 
+            className='w-[800px] h-[400px]' 
+            src='https://cdn.discordapp.com/attachments/1161712896380784753/1503137621323546685/image.png?ex=6a02417f&is=6a00efff&hm=581222d081e969516e552011ee387b14b718d33ce35edae93a35b45d4df30005&' 
+            alt="about" 
+          />
+        </a>        
         <p className='text-white opacity-[0.01] hover:opacity-100 transition-opacity cursor-default'>Дима лох</p>
       </div>
     </>
