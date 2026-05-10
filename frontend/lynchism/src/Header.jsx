@@ -19,14 +19,6 @@ const Header = ({ cartCount }) => {
           <Link to="/" className='flex hover:text-zinc-200 items-center px-2'>Home</Link>
           <Link to="/catalog" className='flex hover:text-zinc-200 items-center px-2'>Catalog</Link>
           <Link to="/about" className='flex hover:text-zinc-200 items-center px-2'>About</Link>
-          <a 
-            href="https://beton.ua/slots-games" 
-            className='flex hover:text-zinc-200 items-center px-2'
-            target="_blank" 
-            rel="noopener noreferrer"
-          >
-            burmolda
-          </a>
         </div>
       </div>
       
