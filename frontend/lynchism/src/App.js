@@ -1457,6 +1457,18 @@ function OrderDetail(){
   )
 }
 
+function AboutPage(){
+  return(
+    <>
+      <div className="min-h-screen bg-[#050505] text-zinc-400 font-mono p-5 flex flex-col justify-center items-center gap-4">
+        <h1 className='uppercase text-[70px]'>by bread🥀</h1>
+        <img className='w-[800px] h-[400px]' src='https://cdn.discordapp.com/attachments/1161712896380784753/1503137621323546685/image.png?ex=6a02417f&is=6a00efff&hm=581222d081e969516e552011ee387b14b718d33ce35edae93a35b45d4df30005&' alt="about"/>
+        <p className='text-white opacity-[0.01] hover:opacity-100 transition-opacity cursor-default'>Дима лох</p>
+      </div>
+    </>
+  )
+}
+
 
 function ChangeProduct(){
   const navigate = useNavigate();
@@ -1635,7 +1647,7 @@ function ChangeProduct(){
 
 function ErrorPage(){
   return(
-    <div className='min-h-screen w-full flex justify-center items-center bg-black text-white'>
+    <div className='min-h-screen w-full flex-col justify-center items-center bg-black text-white'>
       PAGE NOT FOUND
     </div>
   )
@@ -1703,6 +1715,7 @@ function App() {
         <Route path='/admin' element={<AdminPanel />} />
         <Route path="/admin/order/:id" element={<OrderDetail />} />
         <Route path="/admin/change-product/:id" element={<ChangeProduct />} />
+        <Route path="/about" element={<AboutPage />} />
         <Route path='*' element={<ErrorPage/>}/>
       </Routes>
       <Footer />
