@@ -400,10 +400,10 @@ function LoginPage(){
           ERASERHEAD
         </h1>
         <p className='max-w-[900px] font-mono text-[11px] text-zinc-600 uppercase tracking-[0.1em] leading-relaxed mt-3'>
-          The best designer clothing store in Ukraine. <br/>
-          Any item from the store is free with purchase, <br/>
-          provided you can prove you killed one "ТЦК" worker.
-        </p> 
+          ERASERHEAD_STUDIO // KYIV_DNIPRO <br/>
+          ARCHIVED_SILHOUETTES AND INDUSTRIAL_TEXTURES. <br/>
+          ESTABLISHED MMXXVI. ALL RIGHTS RESERVED.
+        </p>
       </div>
       <div className='bg-black w-full lg:w-1/2 lg:max-w-[550px] lg:mr-[5%]  10 flex flex-col items-start justify-center p-16 xl:p-20'>
         <h1 className='text-white text-2xl font-medium uppercase tracking-[0.03em]'>authentication</h1>
