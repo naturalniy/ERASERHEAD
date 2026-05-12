@@ -1465,7 +1465,7 @@ function AboutPage(){
         <a href="https://beton.ua/slots-games">
           <img 
             className='w-[800px] h-[400px]' 
-            src='https://cdn.discordapp.com/attachments/1161712896380784753/1503137621323546685/image.png?ex=6a02417f&is=6a00efff&hm=581222d081e969516e552011ee387b14b718d33ce35edae93a35b45d4df30005&' 
+            src='https://i.imgur.com/OL7O6KJ.jpeg' 
             alt="about" 
           />
         </a>        
