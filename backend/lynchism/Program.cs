@@ -172,7 +172,7 @@ using (var scope = app.Services.CreateScope())
             new Product { Name = "HARDWARE BIKER STACKS", Description = "Extreme stacked silhouette with heavy padding and industrial metallic details.", Price = 9500, Category = "Pants", ImageURL = "https://i.ibb.co/v4TtBnmf/photo-30-2026-03-24-16-48-12.png", Sizes = GetDefaultSizes() },
             new Product { Name = "VOID WALKER TRANSIT PANTS", Description = "Technical denim designed for high-mobility with adjustable webbing systems.", Price = 4200, Category = "Pants", ImageURL = "https://i.ibb.co/WNz11p88/photo-31-2026-03-24-16-48-12.png", Sizes = GetDefaultSizes() },
             new Product { Name = "SHADOW WASHED WIDE-LEG", Description = "Deeply faded obsidian denim with an ultra-wide silhouette and raw edges.", Price = 4450, Category = "Pants", ImageURL = "https://i.ibb.co/fzmJ87jb/photo-33-2026-03-24-16-48-12.png", Sizes = GetDefaultSizes() },
-            new Product { Name = "CYBER TAPERED DENIM", Description = "Minimalist tapered denim featuring subtle digital-inspired circuit embroidery.", Price = 3800, Category = "Pants", ImageURL = "https://i.ibb.co/PGrfmVnJ/photo-34-2026-03-24-16-48-12.png", Sizes = GetDefaultSizes() }
+            new Product { Name = "CYBER TAPERED DENIM", Description = "Minimalist tapered denim featuring subtle digital-inspired circuit embroidery.", Price = 3800, Category = "Pants", ImageURL = "https://i.ibb.co/PGrfmVnJ/photo-34-2026-03-24-16-48-12.png", Sizes = GetDefaultSizes() },
 
 
             new Product { Name = "CORE BALACLAVA", Description = "Distressed rib-knit balaclava with anatomical fit.", Price = 2500, Category = "Accessories", ImageURL = "https://i.ibb.co/fYkYD333/9630f3ef18c748afbad78b016a2b1aa1.png", Sizes = GetDefaultSizes() },
